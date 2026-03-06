@@ -3,24 +3,22 @@ import NavGuideScript from "./components/NavGuideScript";
 import "./aek-styles.css";
 
 export const metadata: Metadata = {
-  title: "이천시의원 김재국",
-  description: "시민의 일상을 바꾸는 생활정치",
+  title: "안애경 의원",
+  description: "시민과 함께하는 안애경의 의정활동",
   openGraph: {
-    url: "https://xn--hu5bi8g.com/aek",
+    url: "https://ahnAekyung.com", // GitHub 레포 기반의 임시 URL (나중에 도메인 연결 시 수정 필요)
     type: "website",
-    title: "이천시의원 김재국",
-    description: "시민의 일상을 바꾸는 생활정치",
+    title: "안애경 의원",
+    description: "시민과 함께하는 안애경의 의정활동",
     images: [
-      "https://postfiles.pstatic.net/MjAyNjAxMTJfOTIg/MDAxNzY4MjAyNjYzODQ1.keP3S4A7Arj6rJsR8LLMaoViqBEvKJ7DNeZX-Iqu4v8g.MGVYluCiiiVyKsqakc-2aYooUzDyosXmrSUAhfLm4EAg.JPEG/meta.jpg?type=w966",
+      "/aek/assets/homemain.jpg", // 임시로 메인 이미지 사용
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "이천시의원 김재국",
-    description: "시민의 일상을 바꾸는 생활정치",
-    images: [
-      "https://postfiles.pstatic.net/MjAyNjAxMTJfOTIg/MDAxNzY4MjAyNjYzODQ1.keP3S4A7Arj6rJsR8LLMaoViqBEvKJ7DNeZX-Iqu4v8g.MGVYluCiiiVyKsqakc-2aYooUzDyosXmrSUAhfLm4EAg.JPEG/meta.jpg?type=w966",
-    ],
+    title: "안애경 의원",
+    description: "시민과 함께하는 안애경의 의정활동",
+    images: ["/aek/assets/homemain.jpg"],
   },
   icons: {
     icon: [
@@ -44,11 +42,7 @@ export const metadata: Metadata = {
   manifest: "/aek/manifest.json",
 };
 
-export default function AeKLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function AeKLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <div className="aek-container">
