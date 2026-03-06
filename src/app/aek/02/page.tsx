@@ -9,9 +9,9 @@ export default function AeK02() {
             <i className="fas fa-home icon"></i>
             <span>홈</span>
           </Link>
-          <Link href="/aek/01" aria-label="김재국 소개">
+          <Link href="/aek/01" aria-label="안애경 소개">
             <i className="fas fa-user icon"></i>
-            <span>김재국</span>
+            <span>안애경</span>
           </Link>
           <Link href="/aek/02" className="active" aria-label="의정보고 보기">
             <i className="fas fa-clipboard-list icon"></i>
@@ -32,7 +32,7 @@ export default function AeK02() {
         <div className="hero-section">
           <img
             src="/aek/assets/2pmain.jpg"
-            alt="김재국 의원"
+            alt="안애경 의원"
             width="100%"
             loading="eager"
           />
@@ -45,7 +45,7 @@ export default function AeK02() {
               className="report-subtitle typing-text"
               style={{ fontWeight: 800 }}
             >
-              안녕하세요 이천시의원 김재국입니다.
+              안녕하세요 이천시의원 안애경입니다.
             </p>
           </div>
 
@@ -63,7 +63,7 @@ export default function AeK02() {
                   <i className="fas fa-car"></i>
                 </div>
                 <div className="section-text">
-                  <h2 className="kimjk-section-title">
+                  <h2 className="aek-section-title">
                     교통 불편 해소를 위한 생활정치
                   </h2>
                   <p className="section-desc">
@@ -111,7 +111,7 @@ export default function AeK02() {
                   <i className="fas fa-shield-alt"></i>
                 </div>
                 <div className="section-text">
-                  <h2 className="kimjk-section-title">
+                  <h2 className="aek-section-title">
                     생명과 안전을 지키는 책임정치
                   </h2>
                   <p className="section-desc">
@@ -167,7 +167,7 @@ export default function AeK02() {
                   <i className="fas fa-hands-helping"></i>
                 </div>
                 <div className="section-text">
-                  <h2 className="kimjk-section-title">
+                  <h2 className="aek-section-title">
                     약자를 먼저 챙기는 희망정치
                   </h2>
                   <p className="section-desc">
@@ -217,7 +217,7 @@ export default function AeK02() {
                   <i className="fas fa-seedling"></i>
                 </div>
                 <div className="section-text">
-                  <h2 className="kimjk-section-title">
+                  <h2 className="aek-section-title">
                     지역의 미래를 키우는 성장정치
                   </h2>
                   <p className="section-desc">

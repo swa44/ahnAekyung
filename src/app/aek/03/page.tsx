@@ -64,9 +64,9 @@ export default function AeK03() {
             <i className="fas fa-home icon"></i>
             <span>홈</span>
           </Link>
-          <Link href="/aek/01" aria-label="김재국 소개">
+          <Link href="/aek/01" aria-label="안애경 소개">
             <i className="fas fa-user icon"></i>
-            <span>김재국</span>
+            <span>안애경</span>
           </Link>
           <Link href="/aek/02" aria-label="의정보고 보기">
             <i className="fas fa-clipboard-list icon"></i>

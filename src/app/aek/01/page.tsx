@@ -164,9 +164,9 @@ export default function AeK01() {
             <i className="fas fa-home icon"></i>
             <span>홈</span>
           </Link>
-          <Link href="/aek/01" className="active" aria-label="김재국 소개">
+          <Link href="/aek/01" className="active" aria-label="안애경 소개">
             <i className="fas fa-user icon"></i>
-            <span>김재국</span>
+            <span>안애경</span>
           </Link>
           <Link href="/aek/02" aria-label="의정보고 보기">
             <i className="fas fa-clipboard-list icon"></i>
@@ -188,7 +188,7 @@ export default function AeK01() {
         <div className="profile-section">
           <img
             src="/aek/assets/1pmain.jpg"
-            alt="김재국 의원"
+            alt="안애경 의원"
             width="100%"
             loading="eager"
           />
