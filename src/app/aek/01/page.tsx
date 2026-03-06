@@ -14,13 +14,17 @@ export default function AeK01() {
           margin-bottom: 20px;
           position: relative;
           z-index: 1;
+          min-height: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
 
         .career-section {
           background: white;
           border-radius: 15px;
           padding: 25px 20px;
-          margin: -100px 20px 20px 20px;
+          margin: 20px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
           position: relative;
           z-index: 100;
@@ -64,10 +68,6 @@ export default function AeK01() {
           gap: 10px;
         }
 
-        .career-item:last-child {
-          border-bottom: none;
-        }
-
         .career-badge {
           font-size: 0.75rem;
           font-weight: 700;
@@ -92,69 +92,6 @@ export default function AeK01() {
           padding: 25px 20px;
           margin: 20px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-        }
-
-        .awards-image-container {
-          margin-bottom: 20px;
-          border-radius: 10px;
-          overflow: hidden;
-        }
-
-        .awards-main-image {
-          width: 100%;
-          height: auto;
-          display: block;
-        }
-
-        .awards-items {
-          display: flex;
-          flex-direction: column;
-          gap: 15px;
-        }
-
-        .award-box {
-          background: #fffbf0;
-          padding: 15px;
-          border-radius: 10px;
-          display: flex;
-          align-items: center;
-          gap: 12px;
-          border: 2px solid #ffe082;
-          transition: all 0.3s ease;
-        }
-
-        .award-box:hover {
-          transform: translateY(-2px);
-          box-shadow: 0 4px 12px rgba(255, 193, 7, 0.3);
-        }
-
-        .award-medal {
-          font-size: 1.8rem;
-          color: #ffd700;
-          flex-shrink: 0;
-        }
-
-        .award-content {
-          flex: 1;
-        }
-
-        .award-year {
-          font-size: 0.85rem;
-          color: #e65100;
-          font-weight: 700;
-          margin-bottom: 2px;
-        }
-
-        .award-name {
-          font-size: 0.95rem;
-          color: #2b2b2b;
-          line-height: 1.4;
-        }
-
-        .award-host {
-          font-size: 0.75rem;
-          color: #999;
-          margin-top: 5px;
         }
       `}</style>
 
@@ -186,12 +123,7 @@ export default function AeK01() {
       <main>
         {/* 프로필 섹션 */}
         <div className="profile-section">
-          <img
-            src="/aek/assets/1pmain.jpg"
-            alt="안애경 의원"
-            width="100%"
-            loading="eager"
-          />
+          <p>프로필 사진 영역</p>
         </div>
 
         {/* 약력 섹션 */}
@@ -203,91 +135,7 @@ export default function AeK01() {
           <ul className="career-list">
             <li className="career-item">
               <span className="career-badge current">현</span>
-              <span>이천시의회/의원</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge current">현</span>
-              <span>이천시의회 제8대 후반기 의회 운영위원장</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge current">현</span>
-              <span>이천시축구협회 자문위원</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge current">현</span>
-              <span>법무부 보호관찰위원회 이천지구 회장</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge current">현</span>
-              <span>이천시 중앙로타리클럽 회원</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge current">현</span>
-              <span>이천시 백사면 모전 상가번영회 회원</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>한국미래산업가스/대표</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>미래에너지/대표</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>이천시의회 국민의힘 원내대표</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>이천시 백사면 체육회장</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>이천시 백사면 도지초교 운영위원장</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>장애인 자립생활센터 운영위원</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>이천시 장애인 인권센터 운영위원</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>국민의힘 백사면 협의회장</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>국민의힘 이천사랑산악회 회장</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>국민의힘 이천사랑봉사단 회원</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>이천시 지역사회보장협의체 회원</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>롯데캐슬 골드스카이 입주자대표 회장</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>이천시 체육회 이사</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>이천시 산수유꽃축제 추진위원회 이사</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>이천시 백사면 바르게살기협의회 이사</span>
-            </li>
-            <li className="career-item">
-              <span className="career-badge former">전</span>
-              <span>이천시 장애인 배드민턴협회 이사</span>
+              <span>약력을 입력하세요.</span>
             </li>
           </ul>
         </div>
@@ -298,111 +146,15 @@ export default function AeK01() {
             <i className="fas fa-trophy"></i>
             <h2>수상내역</h2>
           </div>
-
-          <div className="awards-image-container">
-            <img
-              src="/aek/assets/1paward.jpg"
-              alt="수상 사진"
-              className="awards-main-image"
-            />
-          </div>
-
-          <div className="awards-items">
-            <div className="award-box">
-              <i className="fas fa-medal award-medal"></i>
-              <div className="award-content">
-                <div className="award-year">2025</div>
-                <div className="award-name">의정활동 우수의원</div>
-                <div className="award-host">
-                  주최 : 경기도시군의회의장협의회
-                </div>
-              </div>
-            </div>
-
-            <div className="award-box">
-              <i className="fas fa-medal award-medal"></i>
-              <div className="award-content">
-                <div className="award-year">2025</div>
-                <div className="award-name">우수의정 그랜드마스터상</div>
-                <div className="award-host">주최 : 경기도일간기자단</div>
-              </div>
-            </div>
-
-            <div className="award-box">
-              <i className="fas fa-medal award-medal"></i>
-              <div className="award-content">
-                <div className="award-year">2025</div>
-                <div className="award-name">지방자치의정대상</div>
-                <div className="award-host">주최 : (사)한국유권자중앙회</div>
-              </div>
-            </div>
-
-            <div className="award-box">
-              <i className="fas fa-medal award-medal"></i>
-              <div className="award-content">
-                <div className="award-year">2025</div>
-                <div className="award-name">
-                  이노베이션 & 소비자가 선호하는 혁신기업 브랜드대상
-                </div>
-                <div className="award-host">주최 : 헤럴드경제</div>
-              </div>
-            </div>
-
-            <div className="award-box">
-              <i className="fas fa-medal award-medal"></i>
-              <div className="award-content">
-                <div className="award-year">2025</div>
-                <div className="award-name">장애인의날 감사패 수상</div>
-                <div className="award-host">주최 : 이천시장애인연합회</div>
-              </div>
-            </div>
-
-            <div className="award-box">
-              <i className="fas fa-medal award-medal"></i>
-              <div className="award-content">
-                <div className="award-year">2024</div>
-                <div className="award-name">OBS 자치분권대상</div>
-                <div className="award-host">주최 : OBS</div>
-              </div>
-            </div>
-
-            <div className="award-box">
-              <i className="fas fa-medal award-medal"></i>
-              <div className="award-content">
-                <div className="award-year">2023</div>
-                <div className="award-name">의정활동 우수의원</div>
-                <div className="award-host">
-                  주최 : 경기도시군의회의장협의회
-                </div>
-              </div>
-            </div>
-
-            <div className="award-box">
-              <i className="fas fa-medal award-medal"></i>
-              <div className="award-content">
-                <div className="award-year">2023</div>
-                <div className="award-name">사회공헌 표창</div>
-                <div className="award-host">주최 : 법무부 수원보호관찰소</div>
-              </div>
-            </div>
-
-            <div className="award-box">
-              <i className="fas fa-medal award-medal"></i>
-              <div className="award-content">
-                <div className="award-year">2022</div>
-                <div className="award-name">의정활동 우수의원</div>
-                <div className="award-host">
-                  주최 : 경기동부권시군의장협의회
-                </div>
-              </div>
-            </div>
-          </div>
+          <p style={{ textAlign: "center", color: "#666", padding: "40px 0" }}>
+            수상 내역을 준비 중입니다.
+          </p>
         </div>
 
         <div id="navGuide" className="nav-guide">
           <div className="nav-guide-content">
             <i className="fas fa-hand-point-down"></i>
-            <p>아래를 눌러 다른 페이지도 구경하세요!</p>
+            <p>아래를 눌러 다른 페이지도 확인하세요!</p>
             <i className="fas fa-hand-point-down"></i>
           </div>
         </div>

@@ -30,25 +30,28 @@ export default function AeKHome() {
 
       <main>
         <div className="hero-section">
-          {/* 이미지는 나중에 aek/assets/homemain.jpg 를 안애경 의원님 사진으로 교체하세요 */}
-          <img
-            src="/aek/assets/homemain.jpg"
-            alt="안애경 의원"
-            width="100%"
-            loading="eager"
-          />
+          {/* 메인 이미지를 여기에 넣으세요 */}
+          <div
+            style={{
+              height: "300px",
+              background: "#f0f0f0",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            메인 이미지를 준비 중입니다.
+          </div>
+
           <div className="news-section" style={{ marginBottom: "-30px" }}>
-            <h2 className="news-title">안애경 언론기사</h2>
+            <h2 className="news-title">언론기사</h2>
             <div className="news-grid">
-              {/* 여기에 안애경 의원님의 기사 링크를 추가하세요 */}
-              <div className="news-card">
-                <div className="news-icon">
-                  <i className="fas fa-info-circle"></i>
-                </div>
-                <div className="news-content">
-                  <h3>의정 활동 준비 중입니다.</h3>
-                  <span className="news-source">공지사항</span>
-                </div>
+              {/* 기사 링크가 추가될 영역입니다. */}
+              <div
+                className="news-card"
+                style={{ textAlign: "center", padding: "40px 0" }}
+              >
+                <p>의정 활동 소식을 곧 전해드리겠습니다.</p>
               </div>
             </div>
           </div>
@@ -59,18 +62,16 @@ export default function AeKHome() {
           <div className="sns-footer-content">
             <div className="footer-info">
               <p className="footer-text">안애경 의원</p>
-              <p className="footer-text">의회 주소를 입력하세요.</p>
-              <p className="footer-text">Tel. 연락처를 입력하세요.</p>
+              <p className="footer-text">주소: 내용을 입력하세요.</p>
+              <p className="footer-text">Tel: 내용을 입력하세요.</p>
             </div>
 
             <div className="footer-sns-icons">
-              {/* 안애경 의원님의 SNS 링크로 교체하세요 */}
               <a
                 href="#"
                 className="sns-icon-small facebook-icon"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="페이스북"
               >
                 <i className="fab fa-facebook-f"></i>
               </a>
@@ -79,7 +80,6 @@ export default function AeKHome() {
                 className="sns-icon-small instagram-icon"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="인스타그램"
               >
                 <i className="fab fa-instagram"></i>
               </a>
@@ -88,7 +88,6 @@ export default function AeKHome() {
                 className="sns-icon-small youtube-icon"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="유튜브"
               >
                 <i className="fab fa-youtube"></i>
               </a>
@@ -99,7 +98,7 @@ export default function AeKHome() {
         <div id="navGuide" className="nav-guide">
           <div className="nav-guide-content">
             <i className="fas fa-hand-point-down"></i>
-            <p>아래를 눌러 다른 페이지도 구경하세요!</p>
+            <p>아래를 눌러 다른 페이지도 확인하세요!</p>
             <i className="fas fa-hand-point-down"></i>
           </div>
         </div>
