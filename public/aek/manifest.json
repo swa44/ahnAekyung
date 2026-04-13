@@ -1,15 +1,15 @@
 {
-  "name": "이천시의원 김재국",
-  "short_name": "시의원김재국",
-  "start_url": "/kimjk",
+  "name": "포천시의원 안애경",
+  "short_name": "시의원안애경",
+  "start_url": "/aek",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
-  "scope": "/kimjk/",
+  "scope": "/aek/",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/kimjk/assets/logo_196.png",
+      "src": "/aek/assets/logo_196.png",
       "sizes": "196x196",
       "type": "image/png"
     }

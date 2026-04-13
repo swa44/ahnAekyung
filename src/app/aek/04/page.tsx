@@ -13,9 +13,9 @@ export default function AeK04() {
             <i className="fas fa-user icon"></i>
             <span>안애경</span>
           </Link>
-          <Link href="/aek/02" aria-label="의정보고 보기">
-            <i className="fas fa-clipboard-list icon"></i>
-            <span>의정보고</span>
+          <Link href="/aek/02" aria-label="공약 보기">
+            <i className="fas fa-flag icon"></i>
+            <span>공약</span>
           </Link>
           <Link href="/aek/03" aria-label="영상 보기">
             <i className="fas fa-play-circle icon"></i>
