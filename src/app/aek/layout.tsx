@@ -4,21 +4,23 @@ import "./aek-styles.css";
 
 export const metadata: Metadata = {
   title: "안애경 의원",
-  description: "시민과 함께하는 안애경의 의정활동",
+  description: "시민 곁에 안애경",
   openGraph: {
     url: "xn--289ak97bcc.com", // GitHub 레포 기반의 임시 URL (나중에 도메인 연결 시 수정 필요)
     type: "website",
     title: "안애경",
-    description: "시민과 함께하는 안애경의 의정활동",
+    description: "시민 곁에 안애경",
     images: [
-      "/aek/assets/homemain.jpg", // 임시로 메인 이미지 사용
+      "https://postfiles.pstatic.net/MjAyNjA0MTNfNSAg/MDAxNzc2MDU5NTMzNjA0.xi_FDoT1poQAayO_ILeL-xO-IuwOxT7OAnlQCyseuSgg.tbbfCa5J23ZXBVMKlqUfE43dm-d9BxGHd0SSsKikxn0g.JPEG/meta.jpg?type=w966", // 임시로 메인 이미지 사용
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "안애경 의원",
-    description: "시민과 함께하는 안애경의 의정활동",
-    images: ["/aek/assets/homemain.jpg"],
+    description: "시민 곁에 안애경",
+    images: [
+      "https://postfiles.pstatic.net/MjAyNjA0MTNfNSAg/MDAxNzc2MDU5NTMzNjA0.xi_FDoT1poQAayO_ILeL-xO-IuwOxT7OAnlQCyseuSgg.tbbfCa5J23ZXBVMKlqUfE43dm-d9BxGHd0SSsKikxn0g.JPEG/meta.jpg?type=w966",
+    ],
   },
   icons: {
     icon: [
